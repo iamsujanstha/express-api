@@ -1,0 +1,927 @@
+[{
+    "_id": {
+      "$oid": "665949889897da79e8baf08d"
+    },
+    "name": "WT",
+    "description": "port Waiting Time",
+    "unitOfMeasure": "perhour",
+    "owner": "6417097464396315ed4cf705-driver",
+    "systemGenerated": false,
+    "rules": [
+      {
+        "type": "GROUP",
+        "value": "AND",
+        "isNegated": false,
+        "children": [
+          {
+            "field": "type_of_load",
+            "value": [
+              "{\"label\":\"IMPORT\",\"value\":\"IMPORT\"}",
+              "{\"label\":\"ROAD\",\"value\":\"ROAD\"}",
+              "{\"label\":\"EXPORT\",\"value\":\"EXPORT\"}"
+            ],
+            "operator": "ANY_IN"
+          }
+        ]
+      }
+    ],
+    "charges": [
+      {
+        "freeUnits": 1,
+        "minimumAmount": 0,
+        "amount": 24.7,
+        "_id": {
+          "$oid": "665949889897da79e8baf08e"
+        }
+      }
+    ],
+    "isActive": true,
+    "autoAdd": true,
+    "fromEvent": {
+      "from": "departed",
+      "fromType": "PULLCONTAINER",
+      "_id": {
+        "$oid": "665949889897da79e8baf08f"
+      }
+    },
+    "toEvent": [
+      {
+        "to": "arrived",
+        "toType": "DELIVERLOAD",
+        "_id": {
+          "$oid": "665949889897da79e8baf090"
+        }
+      },
+      {
+        "to": "arrived",
+        "toType": "DROPCONTAINER",
+        "_id": {
+          "$oid": "665949889897da79e8baf091"
+        }
+      }
+    ],
+    "inEvent": null,
+    "exactEvents": null,
+    "chargeTemplateGroupID": [
+      {
+        "$oid": "664f1899694e3b9889606db3"
+      },
+      {
+        "$oid": "66729ed844d8b882ea14817c"
+      }
+    ],
+    "isDeleted": false,
+    "version": 1,
+    "chargeName": "WAITING TIME",
+    "chargeCode": "Waiting time",
+    "percentageOf": [],
+    "vendor": {
+      "name": "All Driver Group",
+      "profileType": "driverGroups/all",
+      "profile": null,
+      "profileGroup": [],
+      "_id": {
+        "$oid": "665949889897da79e8baf092"
+      }
+    },
+    "eventLocationRule": null,
+    "eventLocationRules": [],
+    "vendorProfileType": "driverGroups/all",
+    "multiQueryIndex": [],
+    "fromLegs": null,
+    "fromProfileType": null,
+    "from": null,
+    "fromProfile": null,
+    "toLegs": null,
+    "toProfileType": null,
+    "to": null,
+    "toProfile": null,
+    "moveType": null,
+    "createdAt": {
+      "$date": "2024-05-31T03:52:40.115Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-19T11:08:58.918Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66627f627fba6c5de2c232ec"
+    },
+    "name": "sdasd",
+    "unitOfMeasure": "fixed",
+    "owner": "6417097464396315ed4cf705-driver",
+    "systemGenerated": false,
+    "rules": [
+      {
+        "type": "GROUP",
+        "value": "AND",
+        "isNegated": false,
+        "children": []
+      }
+    ],
+    "charges": [
+      {
+        "freeUnits": 0,
+        "minimumAmount": 0,
+        "amount": 500,
+        "_id": {
+          "$oid": "66627f627fba6c5de2c232ed"
+        }
+      }
+    ],
+    "isActive": true,
+    "autoAdd": true,
+    "fromEvent": null,
+    "toEvent": null,
+    "inEvent": null,
+    "exactEvents": null,
+    "chargeTemplateGroupID": [
+      {
+        "$oid": "66729ed844d8b882ea14817c"
+      }
+    ],
+    "isDeleted": false,
+    "version": 1,
+    "chargeName": "BASE PRICE",
+    "chargeCode": "Base Price",
+    "percentageOf": [],
+    "vendor": {
+      "name": "All Driver Group",
+      "profileType": "driverGroups/all",
+      "profile": null,
+      "profileGroup": [],
+      "_id": {
+        "$oid": "66627f627fba6c5de2c232ee"
+      }
+    },
+    "eventLocationRule": null,
+    "eventLocationRules": [
+      {
+        "event": "CHASSISPICK",
+        "eventLocation": {
+          "name": "989vcghc",
+          "profileType": "customer/group",
+          "profile": null,
+          "profileGroup": [
+            {
+              "name": "APM TERMINAL",
+              "_id": {
+                "$oid": "6417097564396315ed4cf707"
+              }
+            },
+            {
+              "name": "EVERPORT",
+              "_id": {
+                "$oid": "6417097564396315ed4cf708"
+              }
+            },
+            {
+              "name": "FENIX",
+              "_id": {
+                "$oid": "6417097564396315ed4cf709"
+              }
+            },
+            {
+              "name": "ITS",
+              "_id": {
+                "$oid": "6417097564396315ed4cf70a"
+              }
+            },
+            {
+              "name": "MATSON",
+              "_id": {
+                "$oid": "6417097564396315ed4cf70c"
+              }
+            },
+            {
+              "name": "PCT",
+              "_id": {
+                "$oid": "6417097564396315ed4cf70d"
+              }
+            },
+            {
+              "name": "POH",
+              "_id": {
+                "$oid": "6417097564396315ed4cf70e"
+              }
+            },
+            {
+              "name": "YTI",
+              "_id": {
+                "$oid": "6417097564396315ed4cf713"
+              }
+            },
+            {
+              "name": "BNSF RAIL MAIN",
+              "_id": {
+                "$oid": "6417097564396315ed4cf714"
+              }
+            },
+            {
+              "name": "BNSF RAIL MAIN",
+              "_id": {
+                "$oid": "6417097564396315ed4cf715"
+              }
+            },
+            {
+              "name": "UP ELA",
+              "_id": {
+                "$oid": "6417097564396315ed4cf718"
+              }
+            },
+            {
+              "name": "UP LATC",
+              "_id": {
+                "$oid": "6417097564396315ed4cf71a"
+              }
+            },
+            {
+              "name": "DUNCAN",
+              "_id": {
+                "$oid": "6417097564396315ed4cf71c"
+              }
+            },
+            {
+              "name": "INTEREX",
+              "_id": {
+                "$oid": "6417097564396315ed4cf71f"
+              }
+            },
+            {
+              "name": "MILESTONE",
+              "_id": {
+                "$oid": "6417097564396315ed4cf721"
+              }
+            },
+            {
+              "name": "ROADEX",
+              "_id": {
+                "$oid": "6417097564396315ed4cf723"
+              }
+            },
+            {
+              "name": "customer testttt",
+              "_id": {
+                "$oid": "64ffe0f9615b0473cb9a0ea1"
+              }
+            },
+            {
+              "name": "bulk company",
+              "_id": {
+                "$oid": "65015e0e99bc9296e696839a"
+              }
+            },
+            {
+              "name": "City company",
+              "_id": {
+                "$oid": "655ec9ac332545163f74c871"
+              }
+            }
+          ],
+          "_id": {
+            "$oid": "64eeda58653f061642adedfe"
+          }
+        },
+        "eventTime": "arrived",
+        "_id": {
+          "$oid": "6672bc477b9e6f064a7a1bc5"
+        }
+      },
+      {
+        "event": "DELIVERLOAD",
+        "eventLocation": null,
+        "eventTime": "departed",
+        "_id": {
+          "$oid": "6672bc477b9e6f064a7a1bda"
+        }
+      }
+    ],
+    "vendorProfileType": "driverGroups/all",
+    "multiQueryIndex": [
+      "CHASSISPICK-64eeda58653f061642adedfe",
+      "DELIVERLOAD"
+    ],
+    "fromLegs": null,
+    "fromProfileType": null,
+    "from": null,
+    "fromProfile": null,
+    "toLegs": null,
+    "toProfileType": null,
+    "to": null,
+    "toProfile": null,
+    "moveType": null,
+    "createdAt": {
+      "$date": "2024-06-07T03:32:50.384Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-19T11:08:55.079Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6662bb9e352f65fc4559f320"
+    },
+    "name": "pio",
+    "unitOfMeasure": "fixed",
+    "owner": "6417097464396315ed4cf705-driver",
+    "systemGenerated": false,
+    "rules": [
+      {
+        "type": "GROUP",
+        "value": "AND",
+        "isNegated": false,
+        "children": []
+      }
+    ],
+    "charges": [
+      {
+        "freeUnits": 0,
+        "minimumAmount": 0,
+        "amount": 100,
+        "_id": {
+          "$oid": "6662bb9e352f65fc4559f321"
+        }
+      }
+    ],
+    "isActive": true,
+    "autoAdd": true,
+    "fromEvent": null,
+    "toEvent": null,
+    "inEvent": null,
+    "exactEvents": null,
+    "chargeTemplateGroupID": [
+      {
+        "$oid": "66729ed844d8b882ea14817c"
+      }
+    ],
+    "isDeleted": false,
+    "version": 1,
+    "chargeName": "TOLLS",
+    "chargeCode": "Tolls",
+    "percentageOf": [],
+    "vendor": {
+      "name": "All Driver Group",
+      "profileType": "driverGroups/all",
+      "profile": null,
+      "profileGroup": [],
+      "_id": {
+        "$oid": "6662bb9e352f65fc4559f322"
+      }
+    },
+    "vendorProfileType": "driverGroups/all",
+    "multiQueryIndex": [],
+    "fromLegs": [
+      "PULLCONTAINER"
+    ],
+    "fromProfileType": null,
+    "from": null,
+    "toLegs": [
+      "DROPCONTAINER"
+    ],
+    "toProfileType": null,
+    "to": null,
+    "moveType": "BY_LEG",
+    "createdAt": {
+      "$date": "2024-06-07T07:49:50.298Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-19T09:03:20.667Z"
+    },
+    "eventLocationRule": null,
+    "eventLocationRules": []
+  },
+  {
+    "_id": {
+      "$oid": "6662bba57fba6c5de2c3dad3"
+    },
+    "name": "pio Copy",
+    "unitOfMeasure": "fixed",
+    "owner": "6417097464396315ed4cf705-driver",
+    "systemGenerated": false,
+    "rules": [
+      {
+        "type": "GROUP",
+        "value": "AND",
+        "isNegated": false,
+        "children": []
+      }
+    ],
+    "charges": [
+      {
+        "freeUnits": 0,
+        "minimumAmount": 0,
+        "amount": 100,
+        "_id": {
+          "$oid": "6662bb9e352f65fc4559f321"
+        }
+      }
+    ],
+    "isActive": true,
+    "autoAdd": true,
+    "fromEvent": null,
+    "toEvent": null,
+    "inEvent": null,
+    "exactEvents": null,
+    "chargeTemplateGroupID": [
+      {
+        "$oid": "66729ed844d8b882ea14817c"
+      }
+    ],
+    "isDeleted": false,
+    "version": 1,
+    "chargeName": "TOLLS",
+    "chargeCode": "Tolls",
+    "percentageOf": [],
+    "vendor": {
+      "name": "All Driver Group",
+      "profileType": "driverGroups/all",
+      "profile": null,
+      "profileGroup": [],
+      "_id": {
+        "$oid": "6662bb9e352f65fc4559f322"
+      }
+    },
+    "vendorProfileType": "driverGroups/all",
+    "multiQueryIndex": [],
+    "fromLegs": [
+      "HOOKCONTAINER"
+    ],
+    "fromProfileType": null,
+    "from": null,
+    "toLegs": [
+      "RETURNCONTAINER"
+    ],
+    "toProfileType": null,
+    "to": null,
+    "moveType": "BY_LEG",
+    "createdAt": {
+      "$date": "2024-06-07T07:49:57.156Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-19T11:08:49.192Z"
+    },
+    "eventLocationRule": null,
+    "eventLocationRules": []
+  },
+  {
+    "_id": {
+      "$oid": "6662bbf17fba6c5de2c3dbab"
+    },
+    "name": "21",
+    "unitOfMeasure": "fixed",
+    "owner": "6417097464396315ed4cf705-driver",
+    "systemGenerated": false,
+    "rules": [
+      {
+        "type": "GROUP",
+        "value": "AND",
+        "isNegated": false,
+        "children": [
+          {
+            "field": "type_of_load",
+            "value": [
+              "{\"label\":\"IMPORT\",\"value\":\"IMPORT\"}"
+            ],
+            "operator": "ANY_IN"
+          }
+        ]
+      }
+    ],
+    "charges": [
+      {
+        "freeUnits": 0,
+        "minimumAmount": 0,
+        "amount": 78,
+        "_id": {
+          "$oid": "666d15c3d759395b89302e36"
+        }
+      }
+    ],
+    "isActive": true,
+    "autoAdd": true,
+    "fromEvent": null,
+    "toEvent": null,
+    "inEvent": null,
+    "exactEvents": null,
+    "chargeTemplateGroupID": [
+      {
+        "$oid": "666d16f70a633265b88db7a4"
+      },
+      {
+        "$oid": "66729ed844d8b882ea14817c"
+      }
+    ],
+    "isDeleted": false,
+    "version": 1,
+    "chargeName": "PIER CONGESTION",
+    "chargeCode": "pier_congestion",
+    "percentageOf": [
+      "Tolls"
+    ],
+    "vendor": {
+      "name": "All Driver Group",
+      "profileType": "driverGroups/all",
+      "profile": null,
+      "profileGroup": [],
+      "_id": {
+        "$oid": "6662bbf17fba6c5de2c3dbad"
+      }
+    },
+    "chargesBasedOn": "vendorCharges",
+    "vendorProfileType": "driverGroups/all",
+    "multiQueryIndex": [],
+    "fromLegs": [
+      "CHASSISPICK"
+    ],
+    "fromProfileType": null,
+    "from": null,
+    "toLegs": [
+      "PULLCONTAINER"
+    ],
+    "toProfileType": null,
+    "to": null,
+    "moveType": "BY_LEG",
+    "createdAt": {
+      "$date": "2024-06-07T07:51:13.234Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-19T11:08:47.387Z"
+    },
+    "eventLocationRule": null,
+    "eventLocationRules": [],
+    "fromProfile": null
+  },
+  {
+    "_id": {
+      "$oid": "666d14340a633265b88db09a"
+    },
+    "name": "prod smoke",
+    "unitOfMeasure": "fixed",
+    "owner": "6417097464396315ed4cf705-driver",
+    "systemGenerated": false,
+    "rules": [
+      {
+        "type": "GROUP",
+        "value": "AND",
+        "isNegated": false,
+        "children": []
+      }
+    ],
+    "charges": [
+      {
+        "freeUnits": 0,
+        "minimumAmount": 0,
+        "amount": 10,
+        "_id": {
+          "$oid": "666d14340a633265b88db09b"
+        }
+      }
+    ],
+    "isActive": true,
+    "autoAdd": true,
+    "fromEvent": null,
+    "toEvent": null,
+    "inEvent": null,
+    "exactEvents": null,
+    "chargeTemplateGroupID": [
+      {
+        "$oid": "666d16f70a633265b88db7a4"
+      },
+      {
+        "$oid": "66729ed844d8b882ea14817c"
+      }
+    ],
+    "isDeleted": false,
+    "version": 1,
+    "chargeName": "WAITING TIME",
+    "chargeCode": "Waiting time",
+    "percentageOf": [],
+    "vendor": {
+      "name": "All Driver Group",
+      "profileType": "driverGroups/all",
+      "profile": null,
+      "profileGroup": [],
+      "_id": {
+        "$oid": "666d14340a633265b88db09c"
+      }
+    },
+    "vendorProfileType": "driverGroups/all",
+    "multiQueryIndex": [
+      "PULLCONTAINER-6417097564396315ed4cf715",
+      "DELIVERLOAD-6417097564396315ed4cf721"
+    ],
+    "fromLegs": null,
+    "fromProfileType": null,
+    "from": null,
+    "toLegs": null,
+    "toProfileType": null,
+    "to": null,
+    "moveType": null,
+    "createdAt": {
+      "$date": "2024-06-15T04:10:28.125Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-19T11:08:41.113Z"
+    },
+    "eventLocationRule": null,
+    "eventLocationRules": [
+      {
+        "event": "PULLCONTAINER",
+        "eventLocation": {
+          "name": "BNSF RAIL MAIN",
+          "profileType": "customer",
+          "profile": {
+            "name": "BNSF RAIL MAIN",
+            "city": "Glendale",
+            "state": "AZ",
+            "country": "US",
+            "zipCode": "85302",
+            "address1": "4324 W Olive Ave",
+            "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+            "_id": {
+              "$oid": "6417097564396315ed4cf715"
+            }
+          },
+          "profileGroup": [],
+          "_id": {
+            "$oid": "6417097564396315ed4cf715"
+          }
+        },
+        "eventTime": "arrived",
+        "_id": {
+          "$oid": "6672bc3944d8b882ea157494"
+        }
+      },
+      {
+        "event": "DELIVERLOAD",
+        "eventLocation": {
+          "name": "MILESTONE",
+          "profileType": "customer",
+          "profile": {
+            "name": "MILESTONE",
+            "city": "Fontana",
+            "state": "CA",
+            "country": "US",
+            "zipCode": "92335",
+            "address1": "10673 Banana Ave testtt,",
+            "address": "10673 Banana Ave,Fontana,CA 92337,USA",
+            "_id": {
+              "$oid": "6417097564396315ed4cf721"
+            }
+          },
+          "profileGroup": [],
+          "_id": {
+            "$oid": "6417097564396315ed4cf721"
+          }
+        },
+        "eventTime": "departed",
+        "_id": {
+          "$oid": "6672bc3944d8b882ea157497"
+        }
+      }
+    ],
+    "fromProfile": null,
+    "toProfile": null
+  },
+  {
+    "_id": {
+      "$oid": "666d15a00a633265b88db53d"
+    },
+    "name": "65",
+    "unitOfMeasure": "fixed",
+    "owner": "6417097464396315ed4cf705-driver",
+    "systemGenerated": false,
+    "rules": [
+      {
+        "type": "GROUP",
+        "value": "AND",
+        "isNegated": false,
+        "children": []
+      }
+    ],
+    "charges": [
+      {
+        "freeUnits": 0,
+        "minimumAmount": 0,
+        "amount": 899,
+        "effectiveStartDate": {
+          "$date": "2024-05-31T18:15:00.000Z"
+        },
+        "effectiveEndDate": {
+          "$date": "2024-06-02T18:14:59.999Z"
+        },
+        "_id": {
+          "$oid": "666d15a00a633265b88db53e"
+        }
+      },
+      {
+        "freeUnits": 3,
+        "minimumAmount": 0,
+        "amount": 5,
+        "effectiveStartDate": {
+          "$date": "2024-06-02T18:15:00.000Z"
+        },
+        "effectiveEndDate": {
+          "$date": "2024-06-04T18:14:59.999Z"
+        },
+        "_id": {
+          "$oid": "666fa7470a633265b8926ac5"
+        }
+      },
+      {
+        "freeUnits": 5,
+        "minimumAmount": 0,
+        "amount": 6,
+        "effectiveStartDate": {
+          "$date": "2024-06-04T18:15:00.000Z"
+        },
+        "effectiveEndDate": {
+          "$date": "2024-06-06T18:14:59.999Z"
+        },
+        "_id": {
+          "$oid": "666fa7470a633265b8926ac6"
+        }
+      }
+    ],
+    "isActive": true,
+    "autoAdd": true,
+    "fromEvent": null,
+    "toEvent": null,
+    "inEvent": null,
+    "exactEvents": null,
+    "chargeTemplateGroupID": [
+      {
+        "$oid": "666d16f70a633265b88db7a4"
+      },
+      {
+        "$oid": "66729ed844d8b882ea14817c"
+      }
+    ],
+    "isDeleted": false,
+    "version": 1,
+    "chargeName": "MAINTENANCE AND REPAIR",
+    "chargeCode": "maintenance_and_repair",
+    "percentageOf": [],
+    "vendor": {
+      "name": "All Driver Group",
+      "profileType": "driverGroups/all",
+      "profile": null,
+      "profileGroup": [],
+      "_id": {
+        "$oid": "666d15a00a633265b88db53f"
+      }
+    },
+    "vendorProfileType": "driverGroups/all",
+    "multiQueryIndex": [],
+    "fromLegs": [
+      "PULLCONTAINER"
+    ],
+    "fromProfileType": null,
+    "from": null,
+    "toLegs": [
+      "DELIVERLOAD"
+    ],
+    "toProfileType": null,
+    "to": null,
+    "moveType": "BY_LEG",
+    "createdAt": {
+      "$date": "2024-06-15T04:16:32.308Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-19T11:08:38.819Z"
+    },
+    "eventLocationRule": null,
+    "eventLocationRules": [],
+    "effectiveDateParameter": "CREATED_AT/createdAt"
+  },
+  {
+    "_id": {
+      "$oid": "66729ea37b9e6f064a793030"
+    },
+    "name": "prod smoke Copy",
+    "unitOfMeasure": "fixed",
+    "owner": "6417097464396315ed4cf705-driver",
+    "systemGenerated": false,
+    "rules": [
+      {
+        "type": "GROUP",
+        "value": "AND",
+        "isNegated": false,
+        "children": []
+      }
+    ],
+    "charges": [
+      {
+        "freeUnits": 0,
+        "minimumAmount": 0,
+        "amount": 10,
+        "_id": {
+          "$oid": "666d14340a633265b88db09b"
+        }
+      }
+    ],
+    "isActive": true,
+    "autoAdd": true,
+    "fromEvent": null,
+    "toEvent": null,
+    "inEvent": null,
+    "exactEvents": null,
+    "chargeTemplateGroupID": [
+      {
+        "$oid": "666d16f70a633265b88db7a4"
+      },
+      {
+        "$oid": "66729ed844d8b882ea14817c"
+      }
+    ],
+    "isDeleted": false,
+    "version": 1,
+    "chargeName": "WAITING TIME",
+    "chargeCode": "Waiting time",
+    "percentageOf": [],
+    "vendor": {
+      "name": "All Driver Group",
+      "profileType": "driverGroups/all",
+      "profile": null,
+      "profileGroup": [],
+      "_id": {
+        "$oid": "666d14340a633265b88db09c"
+      }
+    },
+    "eventLocationRule": null,
+    "eventLocationRules": [
+      {
+        "eventLocation": {
+          "name": "BNSF RAIL MAIN",
+          "profileType": "customer",
+          "profile": {
+            "name": "BNSF RAIL MAIN",
+            "city": "Glendale",
+            "state": "AZ",
+            "country": "US",
+            "zipCode": "85302",
+            "address1": "4324 W Olive Ave",
+            "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+            "_id": {
+              "$oid": "6417097564396315ed4cf715"
+            }
+          },
+          "profileGroup": [],
+          "_id": {
+            "$oid": "6417097564396315ed4cf715"
+          }
+        },
+        "eventTime": "arrived",
+        "_id": {
+          "$oid": "6672bc1f44d8b882ea157330"
+        }
+      },
+      {
+        "eventLocation": {
+          "name": "MILESTONE",
+          "profileType": "customer",
+          "profile": {
+            "name": "MILESTONE",
+            "city": "Fontana",
+            "state": "CA",
+            "country": "US",
+            "zipCode": "92335",
+            "address1": "10673 Banana Ave testtt,",
+            "address": "10673 Banana Ave,Fontana,CA 92337,USA",
+            "_id": {
+              "$oid": "6417097564396315ed4cf721"
+            }
+          },
+          "profileGroup": [],
+          "_id": {
+            "$oid": "6417097564396315ed4cf721"
+          }
+        },
+        "eventTime": "departed",
+        "_id": {
+          "$oid": "6672bc1f44d8b882ea157333"
+        }
+      }
+    ],
+    "vendorProfileType": "driverGroups/all",
+    "multiQueryIndex": [
+      "6417097564396315ed4cf715",
+      "6417097564396315ed4cf721"
+    ],
+    "fromLegs": null,
+    "fromProfileType": null,
+    "from": null,
+    "fromProfile": null,
+    "toLegs": null,
+    "toProfileType": null,
+    "to": null,
+    "toProfile": null,
+    "moveType": null,
+    "createdAt": {
+      "$date": "2024-06-19T09:02:27.085Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-19T11:08:15.634Z"
+    }
+  }]

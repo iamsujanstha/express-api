@@ -1,0 +1,1784 @@
+curl --location 'http://localhost:3000/api/chargeTemplates' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "loadInfo": {
+        "_id": "66729f5c9025cc6f7eb2bdcd",
+        "reference_number": "OPB2K_BUG_M100661",
+        "type_of_load": "IMPORT",
+        "status": "RETURNCONTAINER_DEPARTED",
+        "hazmat": false,
+        "hot": false,
+        "liquor": false,
+        "distance": 1065.14,
+        "pickupTimes": [
+            {
+                "customerId": "6417097564396315ed4cf715",
+                "_id": "66729f5c9025cc6f7eb2bdce"
+            }
+        ],
+        "deliveryTimes": [
+            {
+                "customerId": "6417097564396315ed4cf721",
+                "_id": "66729f5c9025cc6f7eb2bdcf"
+            }
+        ],
+        "pricing": [],
+        "isDeleted": false,
+        "isPaymentCompleted": false,
+        "isLive": false,
+        "isPrePullCharge": false,
+        "isNextContainerNeedToPickup": false,
+        "radio": 0,
+        "isloadStartable": false,
+        "isReadyForPickup": false,
+        "isHot": false,
+        "isLoadDropAtYard": false,
+        "isLoadDropAtPull": false,
+        "totalWeight": 0,
+        "paidAmount": 0,
+        "totalAmount": 0,
+        "remainAmount": 0,
+        "taxAmount": 0,
+        "totalTaxAmount": 0,
+        "remainTaxAmount": 0,
+        "isConfirm": false,
+        "overWeight": false,
+        "overHeight": false,
+        "brokerHold": false,
+        "carrierHold": false,
+        "invoiceAutoEmailDate": [],
+        "invoiceAutoEmailAudit": [],
+        "preSetOrderStatus": "",
+        "addedBy": {
+            "_id": "6417097464396315ed4cf705",
+            "lastName": null,
+            "name": "Prayush"
+        },
+        "caller": {
+            "_id": "6417097564396315ed4cf715",
+            "companyID": "BNSFRAILMAIN1912",
+            "city": "Glendale",
+            "state": "AZ",
+            "country": "US",
+            "zip_code": "85302",
+            "mobile": "",
+            "email": "ebd5i1nwc87pzgs@fake.email",
+            "billingEmail": "",
+            "extraEmail": "",
+            "payment_terms": 0,
+            "receiverEmail": null,
+            "currency": "",
+            "doc_none": false,
+            "doc_pod": false,
+            "doc_tir": false,
+            "doc_all": false,
+            "geofence": {
+                "center": [
+                    -74.0029393,
+                    40.717718
+                ],
+                "zoom": 10.91,
+                "polygon": [
+                    [
+                        [
+                            -118.1921277,
+                            34.00939392036373
+                        ],
+                        [
+                            -118.19223403843296,
+                            34.00938958984461
+                        ],
+                        [
+                            -118.19233935273644,
+                            34.009376639993846
+                        ],
+                        [
+                            -118.19244262864503,
+                            34.0093551955295
+                        ],
+                        [
+                            -118.19254287152667,
+                            34.009325462979795
+                        ],
+                        [
+                            -118.19263911596258,
+                            34.00928772869399
+                        ],
+                        [
+                            -118.19273043504565,
+                            34.00924235608426
+                        ],
+                        [
+                            -118.19281594930786,
+                            34.0091897821255
+                        ],
+                        [
+                            -118.19289483519074,
+                            34.00913051314655
+                        ],
+                        [
+                            -118.19296633297694,
+                            34.009065119953426
+                        ],
+                        [
+                            -118.19302975410686,
+                            34.00899423233173
+                        ],
+                        [
+                            -118.19308448780977,
+                            34.00891853298086
+                        ],
+                        [
+                            -118.19313000698547,
+                            34.00883875093881
+                        ],
+                        [
+                            -118.19316587328001,
+                            34.008755654560645
+                        ],
+                        [
+                            -118.1931917413064,
+                            34.00867004411844
+                        ],
+                        [
+                            -118.19320736197005,
+                            34.008582744093886
+                        ],
+                        [
+                            -118.19321258486647,
+                            34.008494595237856
+                        ],
+                        [
+                            -118.19320735972858,
+                            34.00840644647332
+                        ],
+                        [
+                            -118.19319173690955,
+                            34.00831914671976
+                        ],
+                        [
+                            -118.19316586689676,
+                            34.008233536717626
+                        ],
+                        [
+                            -118.19312999886115,
+                            34.00815044093169
+                        ],
+                        [
+                            -118.19308447825657,
+                            34.008070659611285
+                        ],
+                        [
+                            -118.19302974349192,
+                            34.007994961083725
+                        ],
+                        [
+                            -118.1929663217082,
+                            34.00792407435537
+                        ],
+                        [
+                            -118.19289482370122,
+                            34.0078586820913
+                        ],
+                        [
+                            -118.1928159380391,
+                            34.0077994140414
+                        ],
+                        [
+                            -118.1927304244307,
+                            34.00774684097598
+                        ],
+                        [
+                            -118.19263910640937,
+                            34.00770146918956
+                        ],
+                        [
+                            -118.19254286340237,
+                            34.00766373562539
+                        ],
+                        [
+                            -118.19244262226178,
+                            34.00763400366793
+                        ],
+                        [
+                            -118.19233934833959,
+                            34.00761255964364
+                        ],
+                        [
+                            -118.1922340361915,
+                            34.00759961006388
+                        ],
+                        [
+                            -118.1921277,
+                            34.00759527963626
+                        ],
+                        [
+                            -118.19202136380852,
+                            34.00759961006388
+                        ],
+                        [
+                            -118.19191605166043,
+                            34.00761255964364
+                        ],
+                        [
+                            -118.19181277773822,
+                            34.00763400366793
+                        ],
+                        [
+                            -118.19171253659765,
+                            34.00766373562539
+                        ],
+                        [
+                            -118.19161629359061,
+                            34.00770146918956
+                        ],
+                        [
+                            -118.1915249755693,
+                            34.00774684097598
+                        ],
+                        [
+                            -118.1914394619609,
+                            34.0077994140414
+                        ],
+                        [
+                            -118.19136057629879,
+                            34.0078586820913
+                        ],
+                        [
+                            -118.19128907829182,
+                            34.00792407435537
+                        ],
+                        [
+                            -118.19122565650808,
+                            34.007994961083725
+                        ],
+                        [
+                            -118.19117092174342,
+                            34.008070659611285
+                        ],
+                        [
+                            -118.19112540113885,
+                            34.00815044093169
+                        ],
+                        [
+                            -118.19108953310324,
+                            34.008233536717626
+                        ],
+                        [
+                            -118.19106366309045,
+                            34.00831914671976
+                        ],
+                        [
+                            -118.19104804027143,
+                            34.00840644647332
+                        ],
+                        [
+                            -118.19104281513351,
+                            34.008494595237856
+                        ],
+                        [
+                            -118.19104803802993,
+                            34.008582744093886
+                        ],
+                        [
+                            -118.1910636586936,
+                            34.00867004411844
+                        ],
+                        [
+                            -118.19108952671999,
+                            34.008755654560645
+                        ],
+                        [
+                            -118.19112539301452,
+                            34.00883875093881
+                        ],
+                        [
+                            -118.19117091219023,
+                            34.00891853298086
+                        ],
+                        [
+                            -118.19122564589314,
+                            34.00899423233173
+                        ],
+                        [
+                            -118.19128906702305,
+                            34.009065119953426
+                        ],
+                        [
+                            -118.19136056480924,
+                            34.00913051314655
+                        ],
+                        [
+                            -118.19143945069216,
+                            34.0091897821255
+                        ],
+                        [
+                            -118.19152496495437,
+                            34.00924235608426
+                        ],
+                        [
+                            -118.19161628403742,
+                            34.00928772869399
+                        ],
+                        [
+                            -118.19171252847335,
+                            34.009325462979795
+                        ],
+                        [
+                            -118.19181277135498,
+                            34.0093551955295
+                        ],
+                        [
+                            -118.19191604726358,
+                            34.009376639993846
+                        ],
+                        [
+                            -118.19202136156704,
+                            34.00938958984461
+                        ],
+                        [
+                            -118.1921277,
+                            34.00939392036373
+                        ]
+                    ]
+                ]
+            },
+            "isEmailNeedToSend": true,
+            "main_contact_name": "BNSF - Los Angeles",
+            "address": {
+                "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+                "lat": 33.5686451,
+                "lng": -112.1526559,
+                "address1": "4324 W Olive Ave",
+                "city": "Glendale",
+                "state": "AZ",
+                "country": "US",
+                "zip_code": "85302"
+            },
+            "company_name": "BNSF RAIL MAIN",
+            "externalSystemID": null,
+            "officeHoursEnd": null,
+            "officeHoursStart": null,
+            "preferredCurrency": null
+        },
+        "callerName": "BNSF RAIL MAIN",
+        "callerInfo": {
+            "company_name": "BNSF RAIL MAIN",
+            "address": {
+                "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+                "lat": 33.5686451,
+                "lng": -112.1526559
+            },
+            "city": "Glendale",
+            "state": "AZ",
+            "country": "US",
+            "zipcode": "85302"
+        },
+        "shipper": [
+            {
+                "_id": "6417097564396315ed4cf715",
+                "city": "Glendale",
+                "state": "AZ",
+                "country": "US",
+                "zip_code": "85302",
+                "company_name": "BNSF RAIL MAIN"
+            }
+        ],
+        "shipperName": "BNSF RAIL MAIN",
+        "shipperAddress": "4324 W OLIVE AVE, GLENDALE, AZ 85302, USA",
+        "shipperInfo": {
+            "company_name": "BNSF RAIL MAIN",
+            "address": {
+                "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+                "lat": 33.5686451,
+                "lng": -112.1526559
+            },
+            "city": "Glendale",
+            "state": "AZ",
+            "country": "US",
+            "zipcode": "85302"
+        },
+        "consignee": [
+            {
+                "_id": "6417097564396315ed4cf721",
+                "city": "Fontana",
+                "state": "CA",
+                "country": "US",
+                "zip_code": "92335",
+                "company_name": "MILESTONE"
+            }
+        ],
+        "consigneeName": "MILESTONE",
+        "consigneeAddress": "10673 BANANA AVE,FONTANA,CA 92337,USA",
+        "consigneeInfo": {
+            "company_name": "MILESTONE",
+            "address": {
+                "address": "10673 Banana Ave,Fontana,CA 92337,USA",
+                "lat": 34.059705,
+                "lng": -117.4966999
+            },
+            "city": "Fontana",
+            "state": "CA",
+            "country": "US",
+            "zipcode": "92335"
+        },
+        "customerEmployee": [],
+        "carrier": {
+            "_id": "6417097464396315ed4cf705",
+            "carrier": {
+                "_id": "6417097464396315ed4cf703",
+                "homeTerminalTimezone": "America/New_York",
+                "weightMeasure": "kg",
+                "distanceMeasure": "km",
+                "mobile": "9843555500",
+                "company_name": "Test Company",
+                "billingEmail": "",
+                "defaultAddress": "6417097464396315ed4cf704"
+            },
+            "email": "prayushbijukchh@gmail.com",
+            "defaultAddressId": {
+                "_id": "6417097464396315ed4cf704",
+                "updatedAt": "2024-03-21T07:54:52.021Z",
+                "createdAt": "2023-03-19T13:09:08.598Z",
+                "carrier": "6417097464396315ed4cf703",
+                "company_address": "New Jersey, 323 N Broad St, Elizabeth, NJ 07208, USA",
+                "isDeleted": false,
+                "longitude": -74.2150478,
+                "latitude": 40.6703597,
+                "address": {
+                    "address": "New Jersey, 323 N Broad St, Elizabeth, NJ 07208, USA",
+                    "address1": "323 N Broad St",
+                    "lat": 40.6703597,
+                    "lng": -74.2150478,
+                    "city": "Elizabeth",
+                    "state": "NJ",
+                    "country": "US",
+                    "zip_code": "07208"
+                },
+                "__v": 0
+            },
+            "lastName": null,
+            "name": "Prayush"
+        },
+        "terminal": {
+            "_id": "6581131965a681160cbee7d1",
+            "updatedAt": "2024-04-12T05:20:13.760Z",
+            "createdAt": "2023-12-19T03:50:49.509Z",
+            "userId": "6417097464396315ed4cf705",
+            "address": {
+                "state": "Ouest",
+                "city": "Port-au-Prince",
+                "address": "8 Bd Toussaint Louverture, Port-au-Prince, Haiti",
+                "zip_code": "",
+                "country": "HT",
+                "lat": 18.5594087,
+                "lng": -72.31798959999999,
+                "isAppliedToCustomer": true,
+                "isAppliedToUsers": true,
+                "isAppliedToDrivers": true,
+                "isAppliedToTrailers": true,
+                "isAppliedToChassis": true,
+                "isAppliedToTrucks": true,
+                "isAppliedToDriverPayGroups": true,
+                "isAppliedToCustomerRates": true,
+                "isAppliedToCharges": false,
+                "isAppliedToInvoices": false,
+                "isAppliedToDeductions": false,
+                "isAppliedToSettlements": false,
+                "isAppliedToDriverPays": false,
+                "prefix": "BUG"
+            },
+            "name": "BUG",
+            "prefixName": "BUG",
+            "isAppliedToTrailers": true,
+            "isAppliedToCustomerRates": true,
+            "isAppliedToDriverPayGroups": true,
+            "isAppliedToDrivers": true,
+            "isAppliedToTrucks": true,
+            "isAppliedToUsers": true,
+            "isAppliedToChassis": true,
+            "isAppliedToCustomer": true,
+            "isDeleted": false,
+            "__v": 0,
+            "isAppliedToCharges": false,
+            "isAppliedToDeductions": false,
+            "isAppliedToDriverPays": false,
+            "isAppliedToInvoices": false,
+            "isAppliedToSettlements": false
+        },
+        "isMigrated": true,
+        "allowDriverCompletion": false,
+        "isEdi": false,
+        "isStatusOrderMigrated": false,
+        "acceptRejectCode": "Default",
+        "isLastFreeDay": false,
+        "assignedCSR": [],
+        "isGrayPool": false,
+        "qbExportDates": [],
+        "qboExportDates": [],
+        "isDrayosTrackosError": [],
+        "isUserEnteredStatus": false,
+        "isUserEnteredfreight": true,
+        "isUserEnteredcustom": true,
+        "isUserEnteredlastFreeDay": true,
+        "isUserEnteredvessel": true,
+        "isUserEnteredcontainerSize": true,
+        "isUserEnteredcontainerType": true,
+        "isUserEnteredcontainerOwner": true,
+        "isUserEnterdischargedDate": true,
+        "isUserEnteredreleaseNo": true,
+        "isUserEntereddeliveryOrderNo": true,
+        "isUserEnteredingateDate": true,
+        "isUserEnteredoutgateDate": true,
+        "isUserEnteredsealNo": true,
+        "isUserEnteredcallerbillLandingNo": true,
+        "isUserEnteredbrokerHold": true,
+        "isUserEnteredcutOff": true,
+        "isUserEnteredcontainerAvailableDay": true,
+        "isUserEnteredreturnNo": true,
+        "isUserEnteredcallerPONo": true,
+        "myAppPerDiemAuditStatus": "Draft",
+        "isGenset": false,
+        "isUserEnteredPickupTar": false,
+        "isUserEnteredEmptyTar": false,
+        "allTenders": [],
+        "totalMarginAmount": -20,
+        "totalExpenseAmount": 20,
+        "marginPercent": 0,
+        "appointmentUpdatedByUser": [],
+        "isContainerInvalid": false,
+        "isUserEnteredPickupTimes": true,
+        "isUserEnteredReturnTimes": true,
+        "chargeStatus": "",
+        "masterSearchText": "{OPB2K_BUG_M100661}{BNSF RAIL MAIN}|||",
+        "billing": [],
+        "myDates": {
+            "lockedMyDates": []
+        },
+        "cautionCount": 0,
+        "deliveryReference": [],
+        "chargeConflicts": [],
+        "expense": [],
+        "additionalPricing": [],
+        "items": [],
+        "statusHistory": [],
+        "paymentHistory": [],
+        "expenseHistory": [],
+        "statusOrder": [],
+        "driverOrder": [
+            {
+                "customerId": {
+                    "_id": "6417097564396315ed4cf715",
+                    "city": "Glendale",
+                    "state": "AZ",
+                    "country": "US",
+                    "zip_code": "85302",
+                    "isTIROptional": false,
+                    "geofence": {
+                        "center": [
+                            -74.0029393,
+                            40.717718
+                        ],
+                        "zoom": 10.91,
+                        "polygon": [
+                            [
+                                [
+                                    -118.1921277,
+                                    34.00939392036373
+                                ],
+                                [
+                                    -118.19223403843296,
+                                    34.00938958984461
+                                ],
+                                [
+                                    -118.19233935273644,
+                                    34.009376639993846
+                                ],
+                                [
+                                    -118.19244262864503,
+                                    34.0093551955295
+                                ],
+                                [
+                                    -118.19254287152667,
+                                    34.009325462979795
+                                ],
+                                [
+                                    -118.19263911596258,
+                                    34.00928772869399
+                                ],
+                                [
+                                    -118.19273043504565,
+                                    34.00924235608426
+                                ],
+                                [
+                                    -118.19281594930786,
+                                    34.0091897821255
+                                ],
+                                [
+                                    -118.19289483519074,
+                                    34.00913051314655
+                                ],
+                                [
+                                    -118.19296633297694,
+                                    34.009065119953426
+                                ],
+                                [
+                                    -118.19302975410686,
+                                    34.00899423233173
+                                ],
+                                [
+                                    -118.19308448780977,
+                                    34.00891853298086
+                                ],
+                                [
+                                    -118.19313000698547,
+                                    34.00883875093881
+                                ],
+                                [
+                                    -118.19316587328001,
+                                    34.008755654560645
+                                ],
+                                [
+                                    -118.1931917413064,
+                                    34.00867004411844
+                                ],
+                                [
+                                    -118.19320736197005,
+                                    34.008582744093886
+                                ],
+                                [
+                                    -118.19321258486647,
+                                    34.008494595237856
+                                ],
+                                [
+                                    -118.19320735972858,
+                                    34.00840644647332
+                                ],
+                                [
+                                    -118.19319173690955,
+                                    34.00831914671976
+                                ],
+                                [
+                                    -118.19316586689676,
+                                    34.008233536717626
+                                ],
+                                [
+                                    -118.19312999886115,
+                                    34.00815044093169
+                                ],
+                                [
+                                    -118.19308447825657,
+                                    34.008070659611285
+                                ],
+                                [
+                                    -118.19302974349192,
+                                    34.007994961083725
+                                ],
+                                [
+                                    -118.1929663217082,
+                                    34.00792407435537
+                                ],
+                                [
+                                    -118.19289482370122,
+                                    34.0078586820913
+                                ],
+                                [
+                                    -118.1928159380391,
+                                    34.0077994140414
+                                ],
+                                [
+                                    -118.1927304244307,
+                                    34.00774684097598
+                                ],
+                                [
+                                    -118.19263910640937,
+                                    34.00770146918956
+                                ],
+                                [
+                                    -118.19254286340237,
+                                    34.00766373562539
+                                ],
+                                [
+                                    -118.19244262226178,
+                                    34.00763400366793
+                                ],
+                                [
+                                    -118.19233934833959,
+                                    34.00761255964364
+                                ],
+                                [
+                                    -118.1922340361915,
+                                    34.00759961006388
+                                ],
+                                [
+                                    -118.1921277,
+                                    34.00759527963626
+                                ],
+                                [
+                                    -118.19202136380852,
+                                    34.00759961006388
+                                ],
+                                [
+                                    -118.19191605166043,
+                                    34.00761255964364
+                                ],
+                                [
+                                    -118.19181277773822,
+                                    34.00763400366793
+                                ],
+                                [
+                                    -118.19171253659765,
+                                    34.00766373562539
+                                ],
+                                [
+                                    -118.19161629359061,
+                                    34.00770146918956
+                                ],
+                                [
+                                    -118.1915249755693,
+                                    34.00774684097598
+                                ],
+                                [
+                                    -118.1914394619609,
+                                    34.0077994140414
+                                ],
+                                [
+                                    -118.19136057629879,
+                                    34.0078586820913
+                                ],
+                                [
+                                    -118.19128907829182,
+                                    34.00792407435537
+                                ],
+                                [
+                                    -118.19122565650808,
+                                    34.007994961083725
+                                ],
+                                [
+                                    -118.19117092174342,
+                                    34.008070659611285
+                                ],
+                                [
+                                    -118.19112540113885,
+                                    34.00815044093169
+                                ],
+                                [
+                                    -118.19108953310324,
+                                    34.008233536717626
+                                ],
+                                [
+                                    -118.19106366309045,
+                                    34.00831914671976
+                                ],
+                                [
+                                    -118.19104804027143,
+                                    34.00840644647332
+                                ],
+                                [
+                                    -118.19104281513351,
+                                    34.008494595237856
+                                ],
+                                [
+                                    -118.19104803802993,
+                                    34.008582744093886
+                                ],
+                                [
+                                    -118.1910636586936,
+                                    34.00867004411844
+                                ],
+                                [
+                                    -118.19108952671999,
+                                    34.008755654560645
+                                ],
+                                [
+                                    -118.19112539301452,
+                                    34.00883875093881
+                                ],
+                                [
+                                    -118.19117091219023,
+                                    34.00891853298086
+                                ],
+                                [
+                                    -118.19122564589314,
+                                    34.00899423233173
+                                ],
+                                [
+                                    -118.19128906702305,
+                                    34.009065119953426
+                                ],
+                                [
+                                    -118.19136056480924,
+                                    34.00913051314655
+                                ],
+                                [
+                                    -118.19143945069216,
+                                    34.0091897821255
+                                ],
+                                [
+                                    -118.19152496495437,
+                                    34.00924235608426
+                                ],
+                                [
+                                    -118.19161628403742,
+                                    34.00928772869399
+                                ],
+                                [
+                                    -118.19171252847335,
+                                    34.009325462979795
+                                ],
+                                [
+                                    -118.19181277135498,
+                                    34.0093551955295
+                                ],
+                                [
+                                    -118.19191604726358,
+                                    34.009376639993846
+                                ],
+                                [
+                                    -118.19202136156704,
+                                    34.00938958984461
+                                ],
+                                [
+                                    -118.1921277,
+                                    34.00939392036373
+                                ]
+                            ]
+                        ]
+                    },
+                    "address": {
+                        "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+                        "lat": 33.5686451,
+                        "lng": -112.1526559,
+                        "address1": "4324 W Olive Ave",
+                        "city": "Glendale",
+                        "state": "AZ",
+                        "country": "US",
+                        "zip_code": "85302"
+                    },
+                    "company_name": "BNSF RAIL MAIN",
+                    "preferredCurrency": null
+                },
+                "arrived": "2024-06-19T09:55:49.935Z",
+                "departed": "2024-06-19T09:55:49.935Z",
+                "isVoidOut": false,
+                "driver": {
+                    "_id": "656718d746387f7d55124deb",
+                    "isDeleted": false,
+                    "lastName": "Driver",
+                    "name": "Active"
+                },
+                "type": "PULLCONTAINER",
+                "distance": 0,
+                "address": {
+                    "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+                    "lat": 33.5686451,
+                    "lng": -112.1526559
+                },
+                "city": "Glendale",
+                "state": "AZ",
+                "country": "US",
+                "zip_code": "85302",
+                "company_name": "BNSF RAIL MAIN",
+                "loadAssignedDate": "2024-06-19T09:05:37.007Z",
+                "isBobtail": false,
+                "isGrayPool": false,
+                "priority": 0,
+                "moveId": "66729f5c9025cc6f7eb2bdfb",
+                "completedFromMobile": "",
+                "dispatchedBy": "6417097464396315ed4cf705",
+                "vendorType": "DRIVER",
+                "tollDistance": 0,
+                "_id": "66729f5c9025cc6f7eb2bed9"
+            },
+            {
+                "customerId": {
+                    "_id": "6417097564396315ed4cf721",
+                    "city": "Fontana",
+                    "state": "CA",
+                    "country": "US",
+                    "zip_code": "92335",
+                    "isTIROptional": false,
+                    "geofence": {
+                        "center": [
+                            -74.0029393,
+                            40.717718
+                        ],
+                        "zoom": 10.91,
+                        "polygon": [
+                            [
+                                [
+                                    -117.4966999,
+                                    34.06060432036373
+                                ],
+                                [
+                                    -117.496806302645,
+                                    34.060599989844526
+                                ],
+                                [
+                                    -117.496911680542,
+                                    34.0605870399935
+                                ],
+                                [
+                                    -117.49701501881313,
+                                    34.06056559552873
+                                ],
+                                [
+                                    -117.4971153222257,
+                                    34.060535862978455
+                                ],
+                                [
+                                    -117.49721162477785,
+                                    34.06049812869195
+                                ],
+                                [
+                                    -117.49730299900271,
+                                    34.060452756081425
+                                ],
+                                [
+                                    -117.49738856490126,
+                                    34.06040018212181
+                                ],
+                                [
+                                    -117.49746749841769,
+                                    34.06034091314194
+                                ],
+                                [
+                                    -117.49753903937585,
+                                    34.060275519947936
+                                ],
+                                [
+                                    -117.49760249880045,
+                                    34.06020463232537
+                                ],
+                                [
+                                    -117.49765726555192,
+                                    34.06012893297372
+                                ],
+                                [
+                                    -117.4977028122119,
+                                    34.060049150930965
+                                ],
+                                [
+                                    -117.49773870016175,
+                                    34.059966054552234
+                                ],
+                                [
+                                    -117.49776458380602,
+                                    34.0598804441096
+                                ],
+                                [
+                                    -117.49778021389974,
+                                    34.05979314408479
+                                ],
+                                [
+                                    -117.49778543994772,
+                                    34.05970499522867
+                                ],
+                                [
+                                    -117.49778021165257,
+                                    34.05961684646422
+                                ],
+                                [
+                                    -117.49776457939804,
+                                    34.05952954671093
+                                ],
+                                [
+                                    -117.49773869376234,
+                                    34.059443936709215
+                                ],
+                                [
+                                    -117.49770280406702,
+                                    34.05936084092386
+                                ],
+                                [
+                                    -117.49765725597454,
+                                    34.05928105960414
+                                ],
+                                [
+                                    -117.49760248815862,
+                                    34.05920536107738
+                                ],
+                                [
+                                    -117.49753902807856,
+                                    34.05913447434989
+                                ],
+                                [
+                                    -117.49746748689907,
+                                    34.05906908208672
+                                ],
+                                [
+                                    -117.49738855360397,
+                                    34.059009814037694
+                                ],
+                                [
+                                    -117.49730298836089,
+                                    34.05895724097315
+                                ],
+                                [
+                                    -117.49721161520044,
+                                    34.058911869187526
+                                ],
+                                [
+                                    -117.49711531408082,
+                                    34.058874135624045
+                                ],
+                                [
+                                    -117.49701501241373,
+                                    34.05884440366715
+                                ],
+                                [
+                                    -117.49691167613402,
+                                    34.0588229596433
+                                ],
+                                [
+                                    -117.49680630039784,
+                                    34.058810010063794
+                                ],
+                                [
+                                    -117.4966999,
+                                    34.05880567963627
+                                ],
+                                [
+                                    -117.49659349960217,
+                                    34.058810010063794
+                                ],
+                                [
+                                    -117.49648812386599,
+                                    34.0588229596433
+                                ],
+                                [
+                                    -117.49638478758628,
+                                    34.05884440366715
+                                ],
+                                [
+                                    -117.49628448591919,
+                                    34.058874135624045
+                                ],
+                                [
+                                    -117.49618818479955,
+                                    34.058911869187526
+                                ],
+                                [
+                                    -117.4960968116391,
+                                    34.05895724097315
+                                ],
+                                [
+                                    -117.49601124639604,
+                                    34.059009814037694
+                                ],
+                                [
+                                    -117.49593231310094,
+                                    34.05906908208672
+                                ],
+                                [
+                                    -117.49586077192144,
+                                    34.05913447434989
+                                ],
+                                [
+                                    -117.49579731184139,
+                                    34.05920536107738
+                                ],
+                                [
+                                    -117.49574254402546,
+                                    34.05928105960414
+                                ],
+                                [
+                                    -117.49569699593299,
+                                    34.05936084092386
+                                ],
+                                [
+                                    -117.49566110623766,
+                                    34.059443936709215
+                                ],
+                                [
+                                    -117.49563522060195,
+                                    34.05952954671093
+                                ],
+                                [
+                                    -117.49561958834742,
+                                    34.05961684646422
+                                ],
+                                [
+                                    -117.49561436005227,
+                                    34.05970499522867
+                                ],
+                                [
+                                    -117.49561958610026,
+                                    34.05979314408479
+                                ],
+                                [
+                                    -117.49563521619399,
+                                    34.0598804441096
+                                ],
+                                [
+                                    -117.49566109983826,
+                                    34.059966054552234
+                                ],
+                                [
+                                    -117.4956969877881,
+                                    34.060049150930965
+                                ],
+                                [
+                                    -117.49574253444808,
+                                    34.06012893297372
+                                ],
+                                [
+                                    -117.49579730119956,
+                                    34.06020463232537
+                                ],
+                                [
+                                    -117.49586076062414,
+                                    34.060275519947936
+                                ],
+                                [
+                                    -117.49593230158231,
+                                    34.06034091314194
+                                ],
+                                [
+                                    -117.49601123509873,
+                                    34.06040018212181
+                                ],
+                                [
+                                    -117.49609680099728,
+                                    34.060452756081425
+                                ],
+                                [
+                                    -117.49618817522216,
+                                    34.06049812869195
+                                ],
+                                [
+                                    -117.49628447777431,
+                                    34.060535862978455
+                                ],
+                                [
+                                    -117.49638478118688,
+                                    34.06056559552873
+                                ],
+                                [
+                                    -117.496488119458,
+                                    34.0605870399935
+                                ],
+                                [
+                                    -117.496593497355,
+                                    34.060599989844526
+                                ],
+                                [
+                                    -117.4966999,
+                                    34.06060432036373
+                                ]
+                            ]
+                        ]
+                    },
+                    "address": {
+                        "address": "10673 Banana Ave,Fontana,CA 92337,USA",
+                        "lat": 34.059705,
+                        "lng": -117.4966999,
+                        "address1": "10673 Banana Ave testtt,",
+                        "city": "Fontana",
+                        "state": "CA",
+                        "country": "US",
+                        "zip_code": "92335"
+                    },
+                    "company_name": "MILESTONE",
+                    "preferredCurrency": null
+                },
+                "arrived": "2024-06-19T09:55:49.935Z",
+                "departed": "2024-06-19T09:55:49.935Z",
+                "isVoidOut": false,
+                "driver": {
+                    "_id": "656718d746387f7d55124deb",
+                    "isDeleted": false,
+                    "lastName": "Driver",
+                    "name": "Active"
+                },
+                "type": "DELIVERLOAD",
+                "distance": 532.51,
+                "address": {
+                    "address": "10673 Banana Ave,Fontana,CA 92337,USA",
+                    "lat": 34.059705,
+                    "lng": -117.4966999
+                },
+                "city": "Fontana",
+                "state": "CA",
+                "country": "US",
+                "zip_code": "92335",
+                "company_name": "MILESTONE",
+                "loadAssignedDate": "2024-06-19T09:05:37.007Z",
+                "isBobtail": false,
+                "isGrayPool": false,
+                "priority": 0,
+                "moveId": "66729f5c9025cc6f7eb2bdfb",
+                "completedFromMobile": "",
+                "dispatchedBy": "6417097464396315ed4cf705",
+                "vendorType": "DRIVER",
+                "tollDistance": 0,
+                "_id": "66729f5c9025cc6f7eb2beda"
+            },
+            {
+                "customerId": {
+                    "_id": "6417097564396315ed4cf715",
+                    "city": "Glendale",
+                    "state": "AZ",
+                    "country": "US",
+                    "zip_code": "85302",
+                    "isTIROptional": false,
+                    "geofence": {
+                        "center": [
+                            -74.0029393,
+                            40.717718
+                        ],
+                        "zoom": 10.91,
+                        "polygon": [
+                            [
+                                [
+                                    -118.1921277,
+                                    34.00939392036373
+                                ],
+                                [
+                                    -118.19223403843296,
+                                    34.00938958984461
+                                ],
+                                [
+                                    -118.19233935273644,
+                                    34.009376639993846
+                                ],
+                                [
+                                    -118.19244262864503,
+                                    34.0093551955295
+                                ],
+                                [
+                                    -118.19254287152667,
+                                    34.009325462979795
+                                ],
+                                [
+                                    -118.19263911596258,
+                                    34.00928772869399
+                                ],
+                                [
+                                    -118.19273043504565,
+                                    34.00924235608426
+                                ],
+                                [
+                                    -118.19281594930786,
+                                    34.0091897821255
+                                ],
+                                [
+                                    -118.19289483519074,
+                                    34.00913051314655
+                                ],
+                                [
+                                    -118.19296633297694,
+                                    34.009065119953426
+                                ],
+                                [
+                                    -118.19302975410686,
+                                    34.00899423233173
+                                ],
+                                [
+                                    -118.19308448780977,
+                                    34.00891853298086
+                                ],
+                                [
+                                    -118.19313000698547,
+                                    34.00883875093881
+                                ],
+                                [
+                                    -118.19316587328001,
+                                    34.008755654560645
+                                ],
+                                [
+                                    -118.1931917413064,
+                                    34.00867004411844
+                                ],
+                                [
+                                    -118.19320736197005,
+                                    34.008582744093886
+                                ],
+                                [
+                                    -118.19321258486647,
+                                    34.008494595237856
+                                ],
+                                [
+                                    -118.19320735972858,
+                                    34.00840644647332
+                                ],
+                                [
+                                    -118.19319173690955,
+                                    34.00831914671976
+                                ],
+                                [
+                                    -118.19316586689676,
+                                    34.008233536717626
+                                ],
+                                [
+                                    -118.19312999886115,
+                                    34.00815044093169
+                                ],
+                                [
+                                    -118.19308447825657,
+                                    34.008070659611285
+                                ],
+                                [
+                                    -118.19302974349192,
+                                    34.007994961083725
+                                ],
+                                [
+                                    -118.1929663217082,
+                                    34.00792407435537
+                                ],
+                                [
+                                    -118.19289482370122,
+                                    34.0078586820913
+                                ],
+                                [
+                                    -118.1928159380391,
+                                    34.0077994140414
+                                ],
+                                [
+                                    -118.1927304244307,
+                                    34.00774684097598
+                                ],
+                                [
+                                    -118.19263910640937,
+                                    34.00770146918956
+                                ],
+                                [
+                                    -118.19254286340237,
+                                    34.00766373562539
+                                ],
+                                [
+                                    -118.19244262226178,
+                                    34.00763400366793
+                                ],
+                                [
+                                    -118.19233934833959,
+                                    34.00761255964364
+                                ],
+                                [
+                                    -118.1922340361915,
+                                    34.00759961006388
+                                ],
+                                [
+                                    -118.1921277,
+                                    34.00759527963626
+                                ],
+                                [
+                                    -118.19202136380852,
+                                    34.00759961006388
+                                ],
+                                [
+                                    -118.19191605166043,
+                                    34.00761255964364
+                                ],
+                                [
+                                    -118.19181277773822,
+                                    34.00763400366793
+                                ],
+                                [
+                                    -118.19171253659765,
+                                    34.00766373562539
+                                ],
+                                [
+                                    -118.19161629359061,
+                                    34.00770146918956
+                                ],
+                                [
+                                    -118.1915249755693,
+                                    34.00774684097598
+                                ],
+                                [
+                                    -118.1914394619609,
+                                    34.0077994140414
+                                ],
+                                [
+                                    -118.19136057629879,
+                                    34.0078586820913
+                                ],
+                                [
+                                    -118.19128907829182,
+                                    34.00792407435537
+                                ],
+                                [
+                                    -118.19122565650808,
+                                    34.007994961083725
+                                ],
+                                [
+                                    -118.19117092174342,
+                                    34.008070659611285
+                                ],
+                                [
+                                    -118.19112540113885,
+                                    34.00815044093169
+                                ],
+                                [
+                                    -118.19108953310324,
+                                    34.008233536717626
+                                ],
+                                [
+                                    -118.19106366309045,
+                                    34.00831914671976
+                                ],
+                                [
+                                    -118.19104804027143,
+                                    34.00840644647332
+                                ],
+                                [
+                                    -118.19104281513351,
+                                    34.008494595237856
+                                ],
+                                [
+                                    -118.19104803802993,
+                                    34.008582744093886
+                                ],
+                                [
+                                    -118.1910636586936,
+                                    34.00867004411844
+                                ],
+                                [
+                                    -118.19108952671999,
+                                    34.008755654560645
+                                ],
+                                [
+                                    -118.19112539301452,
+                                    34.00883875093881
+                                ],
+                                [
+                                    -118.19117091219023,
+                                    34.00891853298086
+                                ],
+                                [
+                                    -118.19122564589314,
+                                    34.00899423233173
+                                ],
+                                [
+                                    -118.19128906702305,
+                                    34.009065119953426
+                                ],
+                                [
+                                    -118.19136056480924,
+                                    34.00913051314655
+                                ],
+                                [
+                                    -118.19143945069216,
+                                    34.0091897821255
+                                ],
+                                [
+                                    -118.19152496495437,
+                                    34.00924235608426
+                                ],
+                                [
+                                    -118.19161628403742,
+                                    34.00928772869399
+                                ],
+                                [
+                                    -118.19171252847335,
+                                    34.009325462979795
+                                ],
+                                [
+                                    -118.19181277135498,
+                                    34.0093551955295
+                                ],
+                                [
+                                    -118.19191604726358,
+                                    34.009376639993846
+                                ],
+                                [
+                                    -118.19202136156704,
+                                    34.00938958984461
+                                ],
+                                [
+                                    -118.1921277,
+                                    34.00939392036373
+                                ]
+                            ]
+                        ]
+                    },
+                    "address": {
+                        "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+                        "lat": 33.5686451,
+                        "lng": -112.1526559,
+                        "address1": "4324 W Olive Ave",
+                        "city": "Glendale",
+                        "state": "AZ",
+                        "country": "US",
+                        "zip_code": "85302"
+                    },
+                    "company_name": "BNSF RAIL MAIN",
+                    "preferredCurrency": null
+                },
+                "arrived": "2024-06-19T09:55:49.935Z",
+                "departed": "2024-06-19T09:55:49.935Z",
+                "isVoidOut": false,
+                "driver": {
+                    "_id": "656718d746387f7d55124deb",
+                    "isDeleted": false,
+                    "lastName": "Driver",
+                    "name": "Active"
+                },
+                "type": "RETURNCONTAINER",
+                "distance": 532.63,
+                "address": {
+                    "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+                    "lat": 33.5686451,
+                    "lng": -112.1526559
+                },
+                "city": "Glendale",
+                "state": "AZ",
+                "country": "US",
+                "zip_code": "85302",
+                "company_name": "BNSF RAIL MAIN",
+                "loadAssignedDate": "2024-06-19T09:05:37.007Z",
+                "isBobtail": false,
+                "isGrayPool": false,
+                "priority": 0,
+                "moveId": "66729f5c9025cc6f7eb2bdfb",
+                "completedFromMobile": "",
+                "dispatchedBy": "6417097464396315ed4cf705",
+                "vendorType": "DRIVER",
+                "tollDistance": 0,
+                "_id": "66729f5c9025cc6f7eb2bedb"
+            }
+        ],
+        "documents": [],
+        "ediDateTime": [],
+        "requestedPickupTimes": [],
+        "requestedReturnTimes": [],
+        "createdAt": "2024-06-19T09:05:32.259Z",
+        "updatedAt": "2024-06-19T09:55:50.144Z",
+        "__v": 0,
+        "totalMiles": 1065.14,
+        "totalTollDistance": 0,
+        "driver": {
+            "_id": "656718d746387f7d55124deb",
+            "driver": {
+                "_id": "656718d746387f01e3124de8",
+                "country_code": "01",
+                "mobile": "0987654321",
+                "currentDriverLocation": {
+                    "coordinates": [
+                        0,
+                        0
+                    ],
+                    "type": "Point"
+                }
+            },
+            "lastName": "Driver",
+            "name": "Active"
+        },
+        "driverName": "ACTIVE DRIVER",
+        "lastUpdatedStatusAt": "2024-06-19T09:55:49.935Z",
+        "loadAssignedDate": "2024-06-19T09:05:37.007Z",
+        "emptyOrigin": {
+            "_id": "6417097564396315ed4cf715",
+            "city": "Glendale",
+            "state": "AZ",
+            "country": "US",
+            "zip_code": "85302",
+            "address": {
+                "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+                "lat": 33.5686451,
+                "lng": -112.1526559,
+                "address1": "4324 W Olive Ave",
+                "city": "Glendale",
+                "state": "AZ",
+                "country": "US",
+                "zip_code": "85302"
+            },
+            "company_name": "BNSF RAIL MAIN"
+        },
+        "emptyOriginInfo": {
+            "customerId": "6417097564396315ed4cf715",
+            "address": {
+                "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+                "lat": 33.5686451,
+                "lng": -112.1526559
+            },
+            "company_name": "BNSF RAIL MAIN",
+            "zipcode": "85302",
+            "country": "US",
+            "city": "Glendale",
+            "state": "AZ"
+        },
+        "emptyOriginName": "BNSF RAIL MAIN",
+        "isEmptyOrigin": true,
+        "isSelectedFromRecommendation": false,
+        "activeIndex": 2,
+        "allStatusDates": {
+            "pullContainerArrived": "2024-06-19T09:55:49.935Z",
+            "pullContainerDeparted": "2024-06-19T09:55:49.935Z",
+            "deliverContainerArrived": "2024-06-19T09:55:49.935Z",
+            "deliverContainerDeparted": "2024-06-19T09:55:49.935Z",
+            "returnContainerArrived": "2024-06-19T09:55:49.935Z",
+            "returnContainerDeparted": "2024-06-19T09:55:49.935Z"
+        },
+        "driverOrderId": {
+            "customerId": "6417097564396315ed4cf715",
+            "arrived": "2024-06-19T09:55:49.935Z",
+            "departed": "2024-06-19T09:55:49.935Z",
+            "isVoidOut": false,
+            "driver": "656718d746387f7d55124deb",
+            "type": "RETURNCONTAINER",
+            "distance": 532.63,
+            "address": {
+                "address": "4324 W Olive Ave, Glendale, AZ 85302, USA",
+                "lat": 33.5686451,
+                "lng": -112.1526559
+            },
+            "city": "Glendale",
+            "state": "AZ",
+            "country": "US",
+            "zip_code": "85302",
+            "company_name": "BNSF RAIL MAIN",
+            "loadAssignedDate": "2024-06-19T09:05:37.007Z",
+            "isBobtail": false,
+            "isGrayPool": false,
+            "priority": 0,
+            "moveId": "66729f5c9025cc6f7eb2bdfb",
+            "completedFromMobile": "",
+            "dispatchedBy": "6417097464396315ed4cf705",
+            "vendorType": "DRIVER",
+            "tollDistance": 0,
+            "_id": "66729f5c9025cc6f7eb2bedb"
+        },
+        "freeReturnDate": "2024-06-19T04:00:00.000Z",
+        "vendorType": "driver"
+    },
+    "getManualChargesOnly": false,
+    "additionalInfo": {
+        "groupedCities": [
+            {
+                "name": "city group",
+                "cities": [
+                    "Wilsonville, ON",
+                    "Uncas, AB",
+                    "Windsor Junction, NS",
+                    "Uncas, AB",
+                    "West Saint Paul, MB"
+                ],
+                "_id": "64ed669f6c5f32f040374691"
+            },
+            {
+                "name": "city groupp",
+                "cities": [
+                    "Wilsonville, ON",
+                    "Saint Michael, AB",
+                    "Uncas, AB",
+                    "West Saint Paul, MB"
+                ],
+                "_id": "64eee4b3985116162cef5b2e"
+            },
+            {
+                "name": "San",
+                "cities": [
+                    "California, PA"
+                ],
+                "_id": "64fef77a5986a4bbe6354e68"
+            },
+            {
+                "name": "cal",
+                "cities": [
+                    "Long Beach, CA"
+                ],
+                "_id": "64ffd9c1615b04aebb9a0e8f"
+            },
+            {
+                "name": "tyu",
+                "cities": [
+                    "Wilsonville, ON",
+                    "West Saint Paul, MB",
+                    "Saint Michael, AB",
+                    "Windsor Junction, NS",
+                    "Uncas, AB"
+                ],
+                "_id": "6515218a9de073a8520a99af"
+            },
+            {
+                "name": "Test Vaugh",
+                "cities": [
+                    "Vaughan, ON"
+                ],
+                "_id": "653e17cbdb9eb41599668c7e"
+            },
+            {
+                "name": "FF",
+                "cities": [
+                    "New Milford, NY"
+                ],
+                "_id": "663db06138b5c3d2dd70403b"
+            }
+        ],
+        "groupedZipcodes": [
+            {
+                "name": "Zip Code Group Test",
+                "zipcodes": [
+                    "54561",
+                    "441144",
+                    "85236",
+                    "7895",
+                    "452",
+                    "54"
+                ],
+                "_id": "64fed46f06e92c1659374726"
+            },
+            {
+                "name": "85",
+                "zipcodes": [
+                    "2123"
+                ],
+                "_id": "651521139de073e6440a99ae"
+            },
+            {
+                "name": "FFF",
+                "zipcodes": [
+                    "92335",
+                    "85302"
+                ],
+                "_id": "663db0729854322658bb708d"
+            }
+        ],
+        "timeZone": "America/New_York",
+        "abbreviatedDateFormat": "MM/DD",
+        "customerCharges": [],
+        "vendorCharges": [],
+        "allVendorDetails": [],
+        "vendorType": "driver",
+        "supportMoves": [],
+        "groupInformation": {
+            "profile": {
+                "6417097564396315ed4cf715": [
+                    "64eeda58653f061642adedfe",
+                    "64eeda58653f061642adedfe",
+                    "64eeda58653f061642adedfe",
+                    "651510159de073191b0a99a9",
+                    "651510159de073191b0a99a9",
+                    "651510159de073191b0a99a9",
+                    "65f3f60bdba7675a011bb860",
+                    "65f3f60bdba7675a011bb860",
+                    "65f3f60bdba7675a011bb860",
+                    "663db0501839aed7cec757c1",
+                    "663db0501839aed7cec757c1",
+                    "663db0501839aed7cec757c1"
+                ],
+                "6417097564396315ed4cf721": [
+                    "64eeda58653f061642adedfe"
+                ]
+            },
+            "zipCode": {
+                "6417097564396315ed4cf715": [
+                    "663db0729854322658bb708d",
+                    "663db0729854322658bb708d"
+                ],
+                "6417097564396315ed4cf721": [
+                    "663db0729854322658bb708d"
+                ]
+            },
+            "cityState": {},
+            "vendor": {
+                "656718d746387f7d55124deb": [
+                    "654b05b6b5823c35923fc686"
+                ]
+            }
+        },
+        "owner": "6417097464396315ed4cf705-driver"
+    }
+}'
